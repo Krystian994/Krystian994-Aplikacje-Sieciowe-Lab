@@ -40,7 +40,7 @@ function validate(&$x,&$oprocentowanie,&$liczbaMiesiecy,&$messages){
         
     }
    
-            // sprawdzenie, czy $loanValue i $interestRate są liczbami całkowitymi
+            // sprawdzenie, czy $x i $oprocentowanie są liczbami całkowitymi
             if ((! is_numeric( $x ))||($x <= 0)) {
                     $messages [] = 'Wprowadzono niepoprawną wartość kredytu!';
             }
